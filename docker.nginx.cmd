@@ -1,1 +1,1 @@
-docker run --rm -p 7999:80 -v %cd%:/usr/share/nginx/html nginx
+docker run --rm --name nginx-cl -p 7999:80 -v %cd%:/usr/share/nginx/html nginx
